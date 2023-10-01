@@ -1,0 +1,70 @@
+/* Aplicar Estilo dentro de una etiqueta
+h1 {
+    El estilo que quiero
+}*/
+
+/* Tipos de Selectores
+1- Por Etiqueta h1, h2, p */
+body{
+    background-color: aqua;
+}
+
+
+
+
+body {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+/*2- Por Clase , empiezan por un . + nombre, son parte 
+    de una etiqueta*/
+    .fondo_blanco{ background-color: white;
+
+    }
+
+/*3 id = #+Nombre id que tiene una etiqueta */
+   
+h2 { background-color: blueviolet; font-family: fantasy;
+}
+#Segundo_titulo { background-color: chocolate;
+width: 400;
+height: 50px;
+display: inline-block;
+}
+
+button { background-color: blue;
+    display: block;
+
+}
+#Boton_Gris{ background-color: gray;
+
+}
+.Gato{ 
+    width: 300px;
+    
+
+}
+.Texto_2{ background-color: yellowgreen;
+    width: 25%;
+    height: 40 vh;
+}
+.borde_azul{ border-color: blue;
+    border-width: 2px;
+border-style: dotted;
+}
+
+#Texto_unico {
+    background-image: url(./imagenes/din-a4-plantilla-para-escribir-recto.png);
+}
+ul{
+    background-color: brown;
+    width: 500px;
+}
+li{
+    background-color: red;
+    width: 50%;
+}
